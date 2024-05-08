@@ -2,7 +2,7 @@ import requests
 from openpyxl import Workbook
 
 def search_indeed_jobs(keywords, location):
-    url = "https://api.indeed.com/ads/apisearch"
+    url = ""
     params = {
         "q": " OR ".join(keywords),
         "l": location,
